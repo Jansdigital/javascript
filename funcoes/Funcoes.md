@@ -24,3 +24,35 @@ saudacao();
 ```
  
 ---
+
+## Funções com parâmetros
+Parâmetros são como variáveis que você passa para a função para que ela possa usar esses valores.
+
+### Exemplo:
+```
+<script>
+function saudacao(nome){
+    console.log('Olá ' + nome + '!');
+}
+saudacao('Janete');
+ 
+</script>
+```
+--- 
+## Funções com retorno
+Uma função pode retornar um valor usando a palavra-chave return.
+Quando a função é chamada, o valor de retorno pode ser usado em outras partes do programa.
+
+### Exemplo:
+ 
+```
+<script>
+  function soma(a, b) {
+    return a + b;
+  }
+ 
+  let resultado = soma(5, 8);
+  console.log(resultado);
+</script>
+```
+---
