@@ -1,0 +1,24 @@
+<script>
+
+    // Atividade: Verificar se um Número é Par ou Ímpar
+    // Crie uma função anônima que receba um número como parâmetro e retorne 
+    //uma mensagem indicando se o número é par ou ímpar..
+
+
+
+
+    let verificarParImpar = function () {
+    let numero = parseInt(prompt("Digite um número")); // Aqui você "digita" um número na caixa da máquina
+    if (numero % 2 === 0) { // Aqui a máquina verifica se o número é divisível por 2 sem deixar resto
+        return "O número é par"; // Se for divisível sem resto, a máquina retorna "O número é par"
+    } else {
+        return "O número é ímpar"; // Se não for divisível sem resto, a máquina retorna "O número é ímpar"
+    }
+};
+
+document.write(verificarParImpar()); // Aqui a máquina mostra na tela o resultado da classificação do número
+
+
+
+
+</script>

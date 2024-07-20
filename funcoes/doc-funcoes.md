@@ -56,3 +56,27 @@ Quando a função é chamada, o valor de retorno pode ser usado em outras partes
 </script>
 ```
 ---
+### Funções anônimas
+ 
+Uma função anônima em JavaScript é uma função que não possui um nome e é frequentemente atribuída a uma variável. A atribuição permite que você chame a função usando o nome da variável.
+As funções anônimas são úteis para criar funções rapidamente sem a necessidade de nomeá-las.
+### Exemplo:
+ 
+```
+<script>
+ 
+    let saudacao = function(nome){
+        return 'Ola ' + nome + '!';
+    }
+ 
+    console.log(saudacao('Cristiano'));
+    console.log(saudacao('Pedro'));
+ 
+</script>
+```
+ 
+---
+## Arrow Functions (Funções de seta)
+As arrow functions são uma forma mais curta de escrever funções anônimas.
+Elas usam a sintaxe () => {}.
+
