@@ -79,4 +79,16 @@ As funções anônimas são úteis para criar funções rapidamente sem a necess
 ## Arrow Functions (Funções de seta)
 As arrow functions são uma forma mais curta de escrever funções anônimas.
 Elas usam a sintaxe () => {}.
+### Exemplo:
+ 
+```
+<script>
+    let saudacao = () =>{
+        console.log('Usando uma função de seta!')
+    }
+ 
+    saudacao();
+</script>
+```
+---
 
