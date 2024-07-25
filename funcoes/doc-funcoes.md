@@ -91,4 +91,6 @@ Elas usam a sintaxe () => {}.
 </script>
 ```
 ---
+## Funções como Objetos
+Em JavaScript, funções são objetos de primeira classe, o que significa que podem ter propriedades (variáveis associadas) e métodos.
 
