@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>callback</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+        Atividade: Função de callback
+        Crie uma função de callback que exiba no console e na pagina , uma mensagem será exibida na página daqui 5 segundos.
+        Após esse período apareça a mensagem "Aqui está a mensagem após 5 segundos de espera 😊!'
+        */
+
+        function mensagemEspera(callback) {
+            console.log('Uma mensagem será exibida daqui 5 segundos, aguarde!');
+            setTimeout(() => {
+                callback();
+
+            },5000);
+
+        }
+        function mensagemFinal(){
+            console.log ('Aqui está a mensagem após 5 segundos de espera 😊');
+            document.write ('Aqui está a mensagem após 5 segundos de espera 😊');
+
+
+        }
+
+        mensagemEspera(mensagemFinal);
+
+
+
+
+    </script>
+
+</body>
+
+</html>

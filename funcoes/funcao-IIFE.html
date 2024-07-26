@@ -1,0 +1,11 @@
+<script>
+    (function(){
+        let mensagem = "Olá, mundo!"; // Variável local dentro da IIFE
+        console.log(mensagem); // Imprime "Olá, mundo!" no console
+    })();
+ 
+    // Tentar acessar `mensagem` fora da IIFE vai dar erro
+    console.log(mensagem);
+    // Isso vai gerar um erro porque `mensagem` não está definida fora da IIFE
+ 
+</script>

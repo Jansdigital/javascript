@@ -1,14 +1,15 @@
 <script>
-
-    function dados() {
-        console.log('Olá, Eu sou a função dados()!');
+    function saudacao() {
+        console.log("Olá, eu sou a função saudacao()!");
     }
-    dados();
-    // Vamos aplicar um objeto (.) dentro desta função
-    dados.nome = 'janete';
-    dados.rg = '123456';
-    console.log (dados.nome);
-
-
-
+ 
+    saudacao.propriedade = 'Eu sou uma propriedade da função';
+    saudacao.descricao = 'Eu sou uma descrição sobre a função';
+ 
+    console.log(saudacao.propriedade); // Isso vai imprimir - Eu sou uma propriedade da função
+ 
+    console.log(saudacao.descricao); // Isso vai imprimir - Eu sou uma descrição
+ 
+    saudacao(); // Isso vai imprimir - Olá, eu sou a função saudacao()!
+ 
 </script>

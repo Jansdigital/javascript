@@ -1,0 +1,21 @@
+<script>
+    // Função que prepara o lanche e usa uma função de callback
+function prepararLanche(callback) {
+    console.log("Preparando o lanche...");
+   
+    // Simula o tempo de preparo com setTimeout
+    setTimeout(() => {
+        console.log("Lanche pronto!");
+        callback(); // Chama a função de callback
+    }, 4000);   // Espera 4 segundos (4000 milissegundos) antes de executar o código dentro do setTimeout
+}
+ 
+// Função de callback que exibe uma mensagem
+function mensagemDePronto() {
+    console.log("Agora você pode comer seu lanche.");
+}
+ 
+// Usar a função prepararLanche com mensagemDePronto como callback
+prepararLanche(mensagemDePronto); // Depois de 4 segundos, exibe a mensagem
+ 
+</script>
